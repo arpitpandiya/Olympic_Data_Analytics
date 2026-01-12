@@ -19,8 +19,46 @@ This project demonstrates an end-to-end data engineering pipeline on Microsoft A
 
 ## 🏗️ Architecture
 
-### End-to-End Flow:
+## End-to-End Flow:
 
 Azure Data Factory → Azure Data Lake (Raw) → Azure Databricks (Transformations) → Azure Data Lake (Curated) → Azure Synapse Lake Database
 
 This architecture enables querying data directly from the Data Lake without loading it into a dedicated SQL pool.
+
+
+## 📂 Repository Structure
+olympic-data-analytics-azure-end-to-end/
+│
+├── data/
+│ ├── raw/
+│ ├── processed/
+│ └── curated/
+│
+├── adf/
+│ └── pipelines/
+│
+├── databricks/
+│ └── notebooks/
+│
+├── synapse/
+│ └── lake_database/
+│
+├── architecture/
+│ └── architecture_diagram.png
+│
+├── screenshots/
+│
+└── README.md
+
+## 🚀 How to Run This Project
+
+Upload Olympic dataset to Azure Data Lake
+
+Configure and execute Azure Data Factory ingestion pipeline
+
+Run Databricks notebooks to transform data and write curated datasets
+
+Create Synapse Lake Database tables referencing curated data
+
+Query data using Synapse serverless SQL
+
