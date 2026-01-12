@@ -16,3 +16,11 @@ This project demonstrates an end-to-end data engineering pipeline on Microsoft A
 - Azure Synapse Analytics (Serverless SQL) – Lake Database & analytics
 
 - SQL / PySpark
+
+## 🏗️ Architecture
+
+End-to-End Flow:
+
+Azure Data Factory → Azure Data Lake (Raw) → Azure Databricks (Transformations) → Azure Data Lake (Curated) → Azure Synapse Lake Database
+
+This architecture enables querying data directly from the Data Lake without loading it into a dedicated SQL pool.
