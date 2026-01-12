@@ -58,7 +58,7 @@ This project follows the Medallion Architecture to organize data in a structured
 
 ### 3️⃣ Curated Data Creation (Azure Databricks)
 Business-ready, analytics-optimized datasets are created
-Data is written to the Curated (Gold) layer in Parquet format
+Data is written to the Curated (Gold) layer.
 
 ### 4️⃣ Analytics Layer (Azure Synapse)
 - A Lake Database named TokyoOlympicDB is created in Azure Synapse Analytics
