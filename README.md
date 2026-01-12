@@ -19,7 +19,7 @@ This project demonstrates an end-to-end data engineering pipeline on Microsoft A
 
 ## 🏗️ Architecture
 
-## End-to-End Flow:
+End-to-End Flow:
 
 Azure Data Factory → Azure Data Lake (Raw) → Azure Databricks (Transformations) → Azure Data Lake (Curated) → Azure Synapse Lake Database
 
