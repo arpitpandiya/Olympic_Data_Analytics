@@ -52,13 +52,13 @@ olympic-data-analytics-azure-end-to-end/
 
 ## 🚀 How to Run This Project
 
-Upload Olympic dataset to Azure Data Lake
+- Upload Olympic dataset to Azure Data Lake
 
-Configure and execute Azure Data Factory ingestion pipeline
+- Configure and execute Azure Data Factory ingestion pipeline
 
-Run Databricks notebooks to transform data and write curated datasets
+- Run Databricks notebooks to transform data and write curated datasets
 
-Create Synapse Lake Database tables referencing curated data
+- Create Synapse Lake Database tables referencing curated data
 
-Query data using Synapse serverless SQL
+- Query data using Synapse serverless SQL
 
