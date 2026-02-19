@@ -24,6 +24,7 @@ End-to-End Flow:
 Azure Data Factory → Azure Data Lake (Raw) → Azure Databricks (Transformations) → Azure Data Lake (Curated) → Azure Synapse Lake Database
 
 This architecture enables querying data directly from the Data Lake without loading it into a dedicated SQL pool.
+![Project Screenshot](Images/Architecture_image.png)
 
 ## 🥉 Medallion Architecture (Lakehouse Design)
 
